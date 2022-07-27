@@ -1,2 +1,35 @@
 ##Informações úteis
-	bacana
+## Comandos Git
+Comandos:
+
+dir - lista oque tem no diretório
+
+cd - entrar em pastas
+
+cd.. - voltar entre as pastas
+
+cls - limpa a tela(terminal)
+
+mkdir - criar pastas
+
+del - deleta arquivos
+
+rmdir *arquivo* /S /Q - exclui a pasta e os arquivos dentro
+
+ls - mostra os arquivos
+
+ls -a - arquivos ocultos
+
+mv - move os arquivos
+
+git remote add origin *link do repositório* ( semelhante ao git clone, entretanto é possível determinar outro repositório para salvar as alterações)
+
+git remote -v (lista o repositório)
+
+git add * (para adicionar tudo oque tem no diretório para fazer o commit)
+
+git commit -m(mensagem) (commit serve para preparar os arquivos para enviar para o github, o -m é para destinar uma mensagem informativa)
+
+git push origin main (envia os dados do diretório local para o github, depois de ter feito o commit)
+
+git clone *link do git* (copia os dados do repositório, e ja está configurado para enviar para o repositório em questão)
